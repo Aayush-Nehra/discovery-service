@@ -1,0 +1,100 @@
+# ----------------------------
+# PYTHON
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter / Python tooling
+.ipynb_checkpoints
+.python-version
+
+# Byte-compiled / optimized DLLs
+*.so
+*.dylib
+
+# ----------------------------
+# ENVIRONMENT / SECRETS
+# ----------------------------
+.env
+.env.*
+!env.example
+
+# ----------------------------
+# APPLICATION / DATABASE FILES
+# ----------------------------
+# SQLite DB files
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic migration cache / compiled files
+alembic/versions/*.pyc
+
+# ----------------------------
+# LOGS
+# ----------------------------
+*.log
+logs/
+log/
+
+# ----------------------------
+# EDITOR & OS FILES
+# ----------------------------
+# VSCode
+.vscode/
+.history/
+
+# IntelliJ / PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ----------------------------
+# DOCKER
+# ----------------------------
+docker/*.pid
+docker/*.sock
+
+# ----------------------------
+# TESTS / COVERAGE
+# ----------------------------
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# ----------------------------
+# FRONTEND (if added later)
+# ----------------------------
+node_modules/
+*.map
+
+# ----------------------------
+# CACHE
+# ----------------------------
+.cache/
